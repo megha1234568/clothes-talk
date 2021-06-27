@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Sofadi+One&family=Zhi+Mang+Xing&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+#contact{
+    height: 100vh;
+    background: url('/images/image.jpg');
+    background-size: cover;
+    position: relative;
+}
+.container{
+    width: 80vw;
+    height: 80vh;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact-heading{
+    width: 80vw;
+    height: 12vh;
+    text-align: center;
+    padding: 1rem;
+}
+.contact-heading h2{
+    font-family: 'Zhi Mang Xing', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #4d0828;
+}
+.contact-heading p{
+    font-family: 'Sofadi One', cursive;
+    color: #4d4a4c;
+}
+.contact-container{
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+.contact-info{
+    width: 40vw;
+    height: 50vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.contact-info .box{
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    height: 15vh;
+    margin-bottom: 1rem;
+}
+.icon{
+    color: rgb(58, 31, 39);
+}
+.text{
+    margin-left: 2rem;
+    width: 25vw;
+}
+.text h5{
+    font-family: 'Zhi Mang Xing', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgb(54, 17, 52);
+}
+.text p{
+    font-family: 'Sofadi One', cursive;
+    font-size: 13px;
+    padding-top: 5px;
+    color: rgb(72, 95, 117);
+}
+.contact-message{
+    width: 40vw;
+    height: 50vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+}
+.contact-message .input{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+.input label{
+    font-family: 'Sofadi One', cursive;
+    padding-top: 7px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.input input{
+    border: none;
+    height: 30px;
+    border-bottom: 2px solid black;
+    padding: 3px 0;
+    outline: none;
+}
+.input textarea{
+    border: none;
+    outline: 2px solid gray;  
+}
+.contact-message button{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    width: 20vw;
+    height: 6vh;
+    border: none;
+    font-family: 'Combo', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: burlywood;
+}
+.contact-message button:hover{
+    color: crimson;
+    background-color: rgb(137, 241, 198);
+    box-shadow: 0 0 10px rgb(137, 241, 198) , 0 0 40px rgb(137, 241, 198) , 0 0 80px rgb(137, 241, 198);
+    cursor: pointer;
+}
+
+@media screen and (max-width:950px){
+    #contact{
+        width: 100vw;
+        height: 150vh;
+    }
+    .contact-container{
+        height: 130vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info{
+        width: 80vw;
+        height: 50vh;
+    }
+    .contact-info .box{
+        width: 60vw;
+    }
+    .text{
+        width: 70vw;
+        height: 10vh;
+    }
+    .contact-message{
+        width: 70vw;
+        height: 50vh;
+    }
+    .input input{
+        width: 60vw;
+    }
+    .input textarea{
+        width: 60vw;
+    }
+    .contact-message button{
+        margin-left: 7rem;
+        width: 25vw;
+        height: 10vh;
+    }
+}

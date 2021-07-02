@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="sale.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <title>sale</title>
 </head>
 <body>
+<!-- header start-->   
     <header>
         <a href="#" class="brand">clothes talk</a>
-        <div class="menu-btn"></div>
+        <div class="menu-btn"></div> 
         <div class="navigation">
           <div class="navigation-items">
             <a href="index.html">Home</a>
             <a href="#">About</a>
             <a href="item.html">product</a>
-            <a href="#"><i class="fas fa-shopping-bag fa-2x"></i></a>
+            <a href="#"><i class="fas fa-shopping-bag fa-2x cart__counter"></i></a>
           </div>
         </div>
+        <div class="cart">
+            <div class="cart__items">
+                <div class="check_out"><h4>Total Ammount : $</h4><h4 class="total__cost">0</h4><button class="btn check_out_btn">Checkout</button> </div>
+            </div>
+        </div>
       </header>
+
+<!-- header end-->
+
+<!-- gallery start-->
     <section class="gallery">
         <div class="container">
             <div class="row">
@@ -35,481 +44,420 @@
                 </div>
             </div>
     
-            <div class="row">
+            <div class="row products">
                 <!-- gallery item start -->
-                <div class="gallery-item 10%">
+                <div class="gallery-item 10% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/ten off/korean suede block heels.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>korean suede block heels</h5>
+                        <input type="hidden" name="" id="product__id" value="1" />
+                        <img src="/sale/ten off/korean suede block heels.jpg" alt="" srcset="" id="image" />
+                        <h5 class="product__name">korean suede block heels</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.800  <span class="cancel">10% off</span></h4>
-                      
+                        <h4 class="product__price">Rs.800  <span class="cancel">10% off</span></h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                        
                         
                     </div>
                 </div>
                 <!-- gallery item end -->
                  <!-- gallery item start -->
-                 <div class="gallery-item one">
+                 <div class="gallery-item one product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/one on one/mask6.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>mask</h5>
+                        <input type="hidden" name="" id="product__id" value="2" />
+                        <img src="/sale/one on one/mask6.jpg" alt="" srcset="" id="image" />
+                        <h5 class="product__name">mask</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.100</h4>
-                        
+                        <h4 class="product__price">Rs.100</h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                  <!-- gallery item start -->
-                 <div class="gallery-item four">
+                 <div class="gallery-item four product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/four and two free/cotton printed a line.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>cotton printed a line kurti</h5>
+                        <input type="hidden" name="" id="product__id" value="3" />
+                        <img src="/sale/four and two free/cotton printed a line.jpg" alt="" srcset="" id="image" />
+                        <h5 class="product__name">cotton printed a line kurti</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.800 </h4>
-                        
+                        <h4 class="product__price">Rs.800 </h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
                 <div class="gallery-item 60%">
                     <div class="gallery-item-inner">
-                        <img src="/sale/three get 60/blue gown.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>blue gown</h5>
+                        <input type="hidden" name="" id="product__id" value="4" />
+                        <img src="/sale/three get 60/blue gown.jpg" alt="" srcset="" id="image" />
+                        <h5 class="product__name">blue gown</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.20,000</h4>
-                        
+                        <h4 class="product__price">Rs.20,000</h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item 20%">
+                <div class="gallery-item 20% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/twenty off/asymmetric shirt.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>asymmetric shirt</h5>
+                        <input type="hidden" name="" id="product__id" value="5" />
+                        <img src="/sale/twenty off/asymmetric shirt.jpg" alt="" srcset="" id="image" />
+                        <h5 class="product__name">asymmetric shirt</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.800  <span class="cancel">20% off</span></h4>
-                        
+                        <h4 class="product__price">Rs.800  <span class="cancel">20% off</span></h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item four">
+                <div class="gallery-item four product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/four and two free/floral embroidery tube top.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>floral embroidery tube top</h5>
+                        <input type="hidden" name="" id="product__id" value="6" />
+                        <img src="/sale/four and two free/floral embroidery tube top.jpg" alt="" srcset="" id="image" />
+                        <h5 class="product__name">floral embroidery tube top</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.500</h4>
-                        
+                        <h4 class="product__price">Rs.500</h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item one">
+                <div class="gallery-item one product__element">
                     <div class="gallery-item-inner">
+                        <input type="hidden" name="" id="product__id" value="7" />
                         <img src="/sale/one on one/mask7.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>mask</h5>
+                        <h5 class="product__name">mask</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.100</h4>
-                        
+                        <h4 class="product__price">Rs.100</h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item 10%">
+                <div class="gallery-item 10% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/ten off/cross body.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>cross body purse</h5>
+                        <input type="hidden" name="" id="product__id" value="8" />
+                        <img src="/sale/ten off/cross body.jpg" alt="" srcset="" id="image" />
+                        <h5 class="product__name">cross body purse</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.1,000<span class="cancel">10% off</span></h4>
-                        
+                        <h4 class="product__price">Rs.1,000<span class="cancel">10% off</span></h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                    <div class="gallery-item 60%">
+                    <div class="gallery-item 60% product__element">
                        <div class="gallery-item-inner">
-                           <img src="/sale/three get 60/brown flat.jpg" alt="">
-                           <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                           <h5>brown flat sandal</h5>
+                        <input type="hidden" name="" id="product__id" value="9" />
+                           <img src="/sale/three get 60/brown flat.jpg" alt="" srcset="" id="image" />
+                           <h5 class="product__name">brown flat sandal</h5>
                            <i class="fas fa-star"></i>
                            <i class="fas fa-star"></i>
                            <i class="fas fa-star"></i>
                            <i class="fas fa-star-half-alt"></i>
                            <i class="far fa-star"></i>
-                           <h4>Rs.500</h4>
-                           
+                           <h4 class="product__price">Rs.500</h4>
+                           <div class="btn__add__to__cart">Add To Cart</div>
                        </div>
                    </div>
                    <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item 20%">
+                <div class="gallery-item 20% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/twenty off/black princess.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>black princess gown</h5>
+                        <input type="hidden" name="" id="product__id" value="10" />
+                        <img src="/sale/twenty off/black princess.jpg" alt="" srcset="" id="image" />
+                        <h5 class="product__name">black princess gown</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.15,000  <span class="cancel">20% off</span></h4>
-                        
+                        <h4 class="product__price">Rs.15,000  <span class="cancel">20% off</span></h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                  <!-- gallery item start -->
-                 <div class="gallery-item four">
+                 <div class="gallery-item four product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/four and two free/yellow floral ruffled cold shoulder top.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>yellow floral ruffled cold shoulder top</h5>
+                        <input type="hidden" name="" id="product__id" value="11" />
+                        <img src="/sale/four and two free/yellow floral ruffled cold shoulder top.jpg" alt="" srcset="" id="image" />
+                        <h5 class="product__name">yellow floral ruffled cold shoulder top</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.1000</h4>
-                        
+                        <h4 class="product__price">Rs.1000</h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                  <!-- gallery item start -->
-                 <div class="gallery-item one">
+                 <div class="gallery-item one product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/one on one/mask8.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>mask</h5>
+                        <input type="hidden" name="" id="product__id" value="12" />
+                        <img src="/sale/one on one/mask8.jpg" alt="" srcset="" id="image" />
+                      
+                        <h5 class="product__name">mask</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.100</h4>
-                        
+                        <h4 class="product__price">Rs.100</h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                  <!-- gallery item start -->
-                 <div class="gallery-item 10%">
+                 <div class="gallery-item 10% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/ten off/oman sneakers.jpeg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>oman sneakers</h5>
+                        <input type="hidden" name="" id="product__id" value="13" />
+                        <img src="/sale/ten off/oman sneakers.jpeg" alt="" srcset="" id="image" />
+                       
+                        <h5 class="product__name">oman sneakers</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.1,200  <span class="cancel">10% off</span></h4>
-                        
+                        <h4 class="product__price">Rs.1,200  <span class="cancel">10% off</span></h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                  <!-- gallery item start -->
-                 <div class="gallery-item 60%">
+                 <div class="gallery-item 60% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/three get 60/white sling bag.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>white sling bag</h5>
+                        <input type="hidden" name="" id="product__id" value="14" />
+                        <img src="/sale/three get 60/white sling bag.jpg" alt="" srcset="" id="image" />
+                       
+                        <h5 class="product__name">white sling bag</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.1,000</h4>
-                        
+                        <h4 class="product__price">Rs.1,000</h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                  <!-- gallery item start -->
-                 <div class="gallery-item 20%">
+                 <div class="gallery-item 20% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/twenty off/high heels.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>high heels</h5>
+                        <input type="hidden" name="" id="product__id" value="15" />
+                        <img src="/sale/twenty off/high heels.jpg" alt="" srcset="" id="image" />
+                        
+                        <h5 class="product__name">high heels</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.2,000  <span class="cancel">20% off</span></h4>
-                        
+                        <h4 class="product__price">Rs.2,000  <span class="cancel">20% off</span></h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                  <!-- gallery item start -->
-                    <div class="gallery-item four">
+                    <div class="gallery-item four product__element">
                         <div class="gallery-item-inner">
-                            <img src="/sale/four and two free/tie neck ruffle armhole glitter top.jpg" alt="">
-                            <div class="textbox">
-                                <button>add to cart</button>
-                                <button>buy now</button>
-                            </div>
-                            <h5>tie neck ruffle armhole glitter top</h5>
+                            <input type="hidden" name="" id="product__id" value="16" />
+                            <img src="/sale/four and two free/tie neck ruffle armhole glitter top.jpg" alt="" srcset="" id="image" />
+                           
+                            <h5 class="product__name">tie neck ruffle armhole glitter top</h5>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star-half-alt"></i>
                             <i class="far fa-star"></i>
-                            <h4>Rs.800</h4>
-                            
+                            <h4 class="product__price">Rs.800</h4>
+                            <div class="btn__add__to__cart">Add To Cart</div>
                         </div>
                     </div>
                     <!-- gallery item end -->
                  <!-- gallery item start -->
-                 <div class="gallery-item 10%">
+                 <div class="gallery-item 10% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/ten off/watches1.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>watches</h5>
+                        <input type="hidden" name="" id="product__id" value="17" />
+                        <img src="/sale/ten off/watches1.jpg" alt="" srcset="" id="image" />
+                       
+                        <h5 class="product__name">watches</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.1,000  <span class="cancel">10% off</span></h4>
-                        
+                        <h4 class="product__price">Rs.1,000  <span class="cancel">10% off</span></h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item 60%">
+                <div class="gallery-item 60% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/three get 60/spring summer flats.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>spring summer flat</h5>
+                        <input type="hidden" name="" id="product__id" value="18" />
+                        <img src="/sale/three get 60/spring summer flats.jpg" alt="" srcset="" id="image" />
+                       
+                        <h5 class="product__name">spring summer flat</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
                         <h4>Rs.1,000 </h4>
-                        
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item 20%">
+                <div class="gallery-item 20% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/twenty off/paradise black heels.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>paradise black heels</h5>
+                        <input type="hidden" name="" id="product__id" value="19" />
+                        <img src="/sale/twenty off/paradise black heels.jpg" alt="" srcset="" id="image" />
+                       
+                        <h5 class="product__name">paradise black heels</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.2,000  <span class="cancel">20% off</span></h4>
-                        
+                        <h4 class="product__price">Rs.2,000  <span class="cancel">20% off</span></h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item four">
+                <div class="gallery-item four product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/four and two free/ruffle trim cold shoulder top.webp" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>ruffle trim cold shoulder top</h5>
+                        <input type="hidden" name="" id="product__id" value="20" />
+                        <img src="/sale/four and two free/ruffle trim cold shoulder top.webp" alt="" srcset="" id="image" />
+                       
+                        <h5 class="product__name">ruffle trim cold shoulder top</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.1,000</h4>
-                        
+                        <h4 class="product__price">Rs.1,000</h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item 10%">
+                <div class="gallery-item 10% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/ten off/plated skirt.webp" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>plated skirt</h5>
+                        <input type="hidden" name="" id="product__id" value="21" />
+                        <img src="/sale/ten off/plated skirt.webp" alt="" srcset="" id="image" />
+                      
+                        <h5 class="product__name">plated skirt</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.900  <span class="cancel">10% off</span></h4>
-                        
+                        <h4 class="product__price">Rs.900  <span class="cancel">10% off</span></h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item 60%">
+                <div class="gallery-item 60% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/three get 60/mini skirt4.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>mini skirt</h5>
+                        <input type="hidden" name="" id="product__id" value="22" />
+                        <img src="/sale/three get 60/mini skirt4.jpg" alt="" srcset="" id="image" />
+                       
+                        <h5 class="product__name">mini skirt</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.500</h4>
-                        
+                        <h4 class="product__price">Rs.500</h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item 20%">
+                <div class="gallery-item 20% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/twenty off/high neck gown.webp" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>high neck gown</h5>
+                        <input type="hidden" name="" id="product__id" value="23" />
+                        <img src="/sale/twenty off/high neck gown.webp" alt="" srcset="" id="image" />
+                     
+                        <h5 class="product__name">high neck gown</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.3,000  <span class="cancel">20% off</span></h4>
-                        
+                        <h4 class="product__price">Rs.3,000  <span class="cancel">20% off</span></h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item four">
+                <div class="gallery-item four product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/four and two free/polka-dot print off shoulder ruffle crop top.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>polka-dot print off shoulder ruffle crop top</h5>
+                        <input type="hidden" name="" id="product__id" value="24" />
+                        <img src="/sale/four and two free/polka-dot print off shoulder ruffle crop top.jpg" alt="" srcset="" id="image" />
+                        
+                        <h5 class="product__name">polka-dot print off shoulder ruffle crop top</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.700</h4>
-                        
+                        <h4 class="product__price">Rs.700</h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
                 <!-- gallery item start -->
-                <div class="gallery-item 10%">
+                <div class="gallery-item 10% product__element">
                     <div class="gallery-item-inner">
-                        <img src="/sale/ten off/palazzo pant3.jpg" alt="">
-                        <div class="textbox">
-                            <button>add to cart</button>
-                            <button>buy now</button>
-                        </div>
-                        <h5>palazzo pant</h5>
+                        <input type="hidden" name="" id="product__id" value="25" />
+                        <img src="/sale/ten off/palazzo pant3.jpg" alt="" srcset="" id="image" />
+                        
+                        <h5 class="product__name">palazzo pant</h5>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                         <i class="far fa-star"></i>
-                        <h4>Rs.1,000  <span class="cancel">10% off</span></h4>
-                        
+                        <h4 class="product__price">Rs.1,000  <span class="cancel">10% off</span></h4>
+                        <div class="btn__add__to__cart">Add To Cart</div>
                     </div>
                 </div>
                 <!-- gallery item end -->
@@ -518,15 +466,17 @@
         </div>
     
     </section>
+<!-- gallery end-->
 
-        <!--footer section start-->
+<!--footer section start-->
 <footer id="footer">
     <p>© Copyright 2021 clothes talk</p>
   
   
   </footer>
-  <!--footer section end-->
+<!--footer section end-->
 
 <script src="item.js"></script>
+<script src="cart.js"></script>
 </body>
 </html>

@@ -9,7 +9,7 @@ menuBtn.addEventListener("click", () => {
 
 //Javacript for video slider navigation
 const btns = document.querySelectorAll(".nav-btn");
-const slides = document.querySelectorAll(".video-slide");
+const slides = document.querySelectorAll(".image-slide");
 const contents = document.querySelectorAll(".content");
 
 var sliderNav = function(manual){
